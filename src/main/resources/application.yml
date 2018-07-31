@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+xxl:
+  job:
+    admin:
+      addresses: localhost:8080/xxl-job-admin
+    executor:
+      appname: demo
+      ip:
+      port: 9999
+      logpath: /Users/zhanglujie/Documents/logs
+      logretentiondays: -1
+    accessToken:
+
